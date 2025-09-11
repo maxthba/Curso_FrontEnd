@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- 3 internal CSS -->
+     <style>
+        p {
+            /* color: gold; */
+            font-size: 40px;
+        }
+     </style>
+
+     <!-- 4 external CSS -->
+      <link rel="stylesheet" href="css/styles.css">
+
+
+      <link rel="stylesheet" href="css/lists.css">
+      <link rel="stylesheet" href="css/title.css">
+</head>
+<body>
+    <!-- 1 inline CSS -->
+    <h1 style="color: blue">Mudar cor com inline</h1>
+    <h1 style="color: blue;">outro titulo</h1>
+
+    <!-- 2 multiplas regras -->
+    <h1 style="
+      color: blueviolet; font-size: 40px; border-bottom: 1px solid;">
+      Mudar cor e tamanho da fonte
+    </h1>
+
+    <!-- 3 internal CSS -->
+    <p>Eu fui estilizado pelo internal</p>
+    <p>Mais um</p>
+    <p>E mais um</p>
+
+    <!-- 4 external CSS -->
+    <h3>Meu titulo verde</h3>
+
+    <!-- 5 ordem do CSS -->
+    <p style="color:red">Ordem CSS</p>
+
+    <!-- 6 multiplos CSS -->
+    <ul>
+        <li>banana</li>
+        <li>maca</li>
+        <li>abacate</li>
+    </ul>
+
+    <!-- 7 tarefa -->
+    <h4>Tarefa feita</h4>
+    
+    <!-- 8 classes -->
+    <p class="paragraph">algum texto</p>
+    <p class="paragraph">algum texto</p>
+    <p class="paragraph">algum texto</p>    
+
+    <!-- 9 Ids -->
+    <h1 id="exclusive-title">Este eh um titulo com id</h1>
+
+    <!-- 10 multiplas regras, ordem do CSS -->
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 1</h2>
+    <h2>Algum texto 1</h2>
+
+    <!-- 11 nome de cor -->
+    <p class="color-name">Qualquer texto para nome de cores</p>
+
+    <!-- 12 cores hexadecimais -->
+    <p class="hex">Paragrafo com hex</p>
+    
+    <!-- 12 mais sobre hex -->
+    <p class="simple-hex">Hex simplificado</p>
+    <p class="simple-hex-2">Hex simplificado 2</p>
+
+    <!-- 14 rgb -->
+    <p class="rgb">Este texto foi estilizado com RGB</p>
+    <p class="mixed-rgb">Este texto foi estilizado com RGB</p>
+
+    <!-- 15 rgba -->
+    <p class="rgba">Este texto foi estilizado por RGBA</p>
+
+
+    <!-- 16 HSL -->
+    <p class="hsl">Este texto foi estilizado por HSL</p>
+    <p class="hsl-2">Este texto foi estilizado por HSL</p>
+
+    <!-- 17 background color -->
+    <p class="bg">Mude meu background</p>
+    <h2 class="bg-2">Outra variacao de BG</h2>
+
+    <!-- 18 opacidade bg -->
+    <div class="bg-opacity">
+        <p>Estou aqui!</p>
+    </div>
+
+    <div class="bg-opacity-2">
+        <p>Estou aqui quase visivel</p>
+    </div>
+
+    <!-- 19 rgba com opacidade -->
+    <div class="rgba-opacity">
+        <h1>Este titulo precisa estar visivel</h1>
+    </div>
+
+    <!-- 20 imagem de background -->
+    <h1 class="bg-image">Este titulo tem uma imagem</h1>
+</body>
+</html>

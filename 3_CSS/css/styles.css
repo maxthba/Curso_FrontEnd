@@ -1,0 +1,112 @@
+/* 4 external CSS */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/* classes */
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* ids */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+/* ordem e regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* nome de cores */
+.color-name {
+    color:crimson;
+}
+
+/* hex */
+.hex {
+    color:#55a398;
+}
+
+/* aprofundando em hex */
+.simple-hex {
+    color:#333;
+}
+.simple-hex-2 {
+    color:#a5f;
+}
+
+/* RGB */
+.rgb {
+    color:rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color:rgb(199, 21, 47);
+}
+
+/* RGBA */
+.rgba {
+    color:rgba(100, 199, 45, 0.6);
+}
+
+/* HSL */
+.hsl {
+    color:hsl(100, 20%, 50%);
+}
+
+.hsl-2 {
+    color: hsl(20, 50%, 40%)
+}
+
+/* background */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40);
+    color:#00eaff;
+}
+
+/* background opacity */
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: black;
+    opacity: 0.8;
+}
+
+/* RGBA com opacidade */
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.4);
+    color: #000;
+}
+
+/* BG image */
+.bg-image {
+    background-image: url("../img/ceu\ estrelado.jpg");
+    padding: 10px;
+    color: white;
+}
