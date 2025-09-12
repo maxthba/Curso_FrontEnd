@@ -110,3 +110,10 @@ h2 {
     padding: 10px;
     color: white;
 }
+
+/* centralizando BG image */
+.not-centered-bg, .centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/ponte.jpg");
+}
