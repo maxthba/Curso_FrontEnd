@@ -117,3 +117,360 @@ h2 {
     width: 400px;
     background-image: url("../img/ponte.jpg");
 }
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* largura e altura */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
+
+/* padding */
+.padding, .without-padding {
+    background-color: black;
+    color: white;
+
+}
+
+.padding {
+    background-color: #6d5252;
+    padding: 20px;
+}
+
+/* padding individual */
+.padding-individual {
+    background-color: #222;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+}
+
+/* shorthand padding */
+.shorthand-padding,
+.shorthand-padding-2 {
+    background-color: #333;
+    color:white
+}
+
+.shorthand-padding {
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    padding: 10px 20px;
+}
+
+/* padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* border */
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #921;
+    padding: 10px;    
+}
+
+/* borda individual */
+
+.border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+    color: white;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+
+}
+
+/* borda arredondada */
+.rounded-p {
+    border: 3px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p-2 {
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* margin */
+.margin {
+    margin:10px;
+    background-color: #222;
+}
+
+.margin-top {
+    margin-top:40px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    margin: 5px 10px 15px 20px;
+}
+
+/* box model */
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;;
+}
+
+/* text aling */
+.align {
+    text-align: right;  
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* text decoration */
+.underline {
+    text-decoration: underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+
+/* text transform */
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+
+/* letter spacing */
+.spacing {
+    letter-spacing: 5px;
+}
+
+/* fontes */
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: "courier new";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* estilo de fonte */
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+
+/* font weight */
+.thin, .bold, .bolder {
+    font-family: helvetica;
+}
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* font size */
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/* display  */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #333;
+    display: block;
+    margin: 10px;   
+}
+
+/* escondendo elemento */
+.invisible {
+    display: none;
+}
+
+/* static */
+.static {
+    position: static;
+    background-color: #391;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+/* relative */
+.relative {
+    position: relative;
+    background-color: rgb(17, 76, 153);
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* absolute */
+.absolute {
+    position: absolute;
+    background-color: rgb(156, 131, 78);
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* relative com absolute */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1, .absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixer */
+.fixed {
+    position: fixed;
+    background-color: #851;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    top: 50px;
+    right: 100px;
+}
+
+/* sticky */
+.sticky {
+    position: sticky;
+    background-color: #994;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(8, 212, 35); 
+    top: 10px;
+}
+
+/* z-index */
+.absolute-3, .absolute-4, .absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index: 1;
+}
