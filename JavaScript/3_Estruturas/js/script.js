@@ -1,18 +1,41 @@
-// 1 - variaveis
-let nome = "Max";
+// // 1 - variaveis
+// let nome = "Max";
 
-console.log(nome);
+// console.log(nome);
 
-nome = "Max Thomazini";
+// nome = "Max Thomazini";
 
-console.log(nome);
+// console.log(nome);
 
-const idade = 19;
+// const idade = 19;
 
-console.log(idade);
+// console.log(idade);
 
-//idade = 20;
+// //idade = 20;
 
-console.log(typeof nome);
-console.log(typeof idade);
+// console.log(typeof nome);
+// console.log(typeof idade);
 
+// // 2 - mais sobre variaveis
+// // let 2teste = "invalido";
+// // let @teste = "invalido";
+
+// let a = 10, 
+//     b = 20, 
+//     c = 30;
+
+// console.log(a, b, c);
+
+// const nomecompleto = "max thomazini";
+// const NomeCompleto = "MaxThomazini";
+
+// console.log(nomecompleto);
+// console.log(NomeCompleto);
+
+// let _teste = "ok";
+
+// let $teste = "ok";
+
+// console.log(_teste, $teste);
+
+ 
