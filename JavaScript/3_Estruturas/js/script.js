@@ -57,11 +57,27 @@
 
 // console.log(Math.ceil(5.7));
 
-// 6 - console
-console.log("teste");
+// // 6 - console
+// console.log("teste");
 
-console.error("erro");
+// console.error("erro");
 
-console.warn("aviso");
+// console.warn("aviso");
 
+// 7 - if
+const m = 10;
+
+if (m>5) {
+    console.log(`M eh maior que 5`);
+}
+
+const user = "joao";
+
+if (user === "joao") {
+    console.log("ola joao");
+}
+
+if (user === "maria"){
+    console.log("Ola maria");
+}
 
