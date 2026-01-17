@@ -43,11 +43,18 @@
 
 // console.log(`voce tem ${age} anos.`);
 
-// 4 - alert
-alert("testando");
+// // 4 - alert
+// alert("testando");
 
-const z = 10;
+// const z = 10;
 
-alert(`o numero eh ${z}`);
+// alert(`o numero eh ${z}`);
+
+// 5 - math 
+console.log(Math.max(5, 2, 1, 10));  
+
+console.log(Math.floor(5.14));
+
+console.log(Math.ceil(5.7));
 
 
