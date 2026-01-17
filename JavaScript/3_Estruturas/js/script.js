@@ -50,11 +50,18 @@
 
 // alert(`o numero eh ${z}`);
 
-// 5 - math 
-console.log(Math.max(5, 2, 1, 10));  
+// // 5 - math 
+// console.log(Math.max(5, 2, 1, 10));  
 
-console.log(Math.floor(5.14));
+// console.log(Math.floor(5.14));
 
-console.log(Math.ceil(5.7));
+// console.log(Math.ceil(5.7));
+
+// 6 - console
+console.log("teste");
+
+console.error("erro");
+
+console.warn("aviso");
 
 
