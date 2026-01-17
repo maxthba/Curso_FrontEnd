@@ -64,20 +64,39 @@
 
 // console.warn("aviso");
 
-// 7 - if
-const m = 10;
+// // 7 - if
+// const m = 10;
 
-if (m>5) {
-    console.log(`M eh maior que 5`);
+// if (m>5) {
+//     console.log(`M eh maior que 5`);
+// }
+
+// const user = "joao";
+
+// if (user === "joao") {
+//     console.log("ola joao");
+// }
+
+// if (user === "maria"){
+//     console.log("Ola maria");
+// }
+
+// 8 - else
+const loggedin = false;
+
+if(loggedin){
+    console.log("esta autenticado");
+} else {
+    console.log("nao esta autenticado");
 }
 
-const user = "joao";
+const q = 10;
+const w = 15;
 
-if (user === "joao") {
-    console.log("ola joao");
+if(q > 5 && w > 20) {
+    console.log("numeros sao mais altos");
+} else {
+    console.log("os numeros nao sao mais altos");
 }
 
-if (user === "maria"){
-    console.log("Ola maria");
-}
 
