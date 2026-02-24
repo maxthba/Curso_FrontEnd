@@ -82,21 +82,39 @@
 // }
 
 // 8 - else
-const loggedin = false;
+// const loggedin = false;
 
-if(loggedin){
-    console.log("esta autenticado");
-} else {
-    console.log("nao esta autenticado");
+// if(loggedin){
+//     console.log("esta autenticado");
+// } else {
+//     console.log("nao esta autenticado");
+// }
+
+// const q = 10;
+// const w = 15;
+
+// if(q > 5 && w > 20) {
+//     console.log("numeros sao mais altos");
+// } else {
+//     console.log("os numeros nao sao mais altos");
+// }
+
+// 9 - else if
+if(1 > 2){
+    console.log("teste");
+} else if(2 > 3){
+    console.log("teste 2");
+} else if(5 > 1) {
+    console.log("agora sim");
 }
 
-const q = 10;
-const w = 15;
+const username = "Max";
+const userAge = 19;
 
-if(q > 5 && w > 20) {
-    console.log("numeros sao mais altos");
-} else {
-    console.log("os numeros nao sao mais altos");
+if(username === "jose"){
+    console.log("bem vindo jose");
+} else if(username === "Max" && userAge === 19){
+    console.log("bem vindo Max, voce tem 19 anos");
+} else{
+    console.log("nenhuma condicao completa");
 }
-
-
