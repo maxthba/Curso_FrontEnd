@@ -100,21 +100,29 @@
 // }
 
 // 9 - else if
-if(1 > 2){
-    console.log("teste");
-} else if(2 > 3){
-    console.log("teste 2");
-} else if(5 > 1) {
-    console.log("agora sim");
-}
+// if(1 > 2){
+//     console.log("teste");
+// } else if(2 > 3){
+//     console.log("teste 2");
+// } else if(5 > 1) {
+//     console.log("agora sim");
+// }
 
-const username = "Max";
-const userAge = 19;
+// const username = "Max";
+// const userAge = 19;
 
-if(username === "jose"){
-    console.log("bem vindo jose");
-} else if(username === "Max" && userAge === 19){
-    console.log("bem vindo Max, voce tem 19 anos");
-} else{
-    console.log("nenhuma condicao completa");
+// if(username === "jose"){
+//     console.log("bem vindo jose");
+// } else if(username === "Max" && userAge === 19){
+//     console.log("bem vindo Max, voce tem 19 anos");
+// } else{
+//     console.log("nenhuma condicao completa");
+// }
+
+//10 - while 
+let p = 0;
+
+while(p<5){
+    console.log(`valor de ${p}`);
+    p = p + 1;
 }
