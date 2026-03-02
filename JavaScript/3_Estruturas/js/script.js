@@ -120,9 +120,9 @@
 // }
 
 //10 - while 
-let p = 0;
+// let p = 0;
 
-while(p<5){
-    console.log(`valor de ${p}`);
-    p = p + 1;
-}
+// while(p<5){
+//     console.log(`valor de ${p}`);
+//     p = p + 1;
+// }
